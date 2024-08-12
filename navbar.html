@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+	       <meta charset="utf-8">
+	       <meta name="viewport" content="width=device-width, initial-scale=1">
+	       <link rel="stylesheet" href="css/bootstrap.min.css"/>
+	       <title> Navigation Bar </title>
+	</head>
+
+	<body>
+
+	       <nav class="navbar navbar-expand navbar-light bg-light">
+		<div class="container">
+		     <a class="navbar-brand" href="#"> HND </a>
+		     <div class="collapse navbar-collapse">
+		            <ul class="navbar-nav">
+			<li class="nav-item dropdown">
+			     <a class="nav-link dropdown-toggle" href="#" id="dropdownstudents" data-bs-toggle="dropdown"> Students</a>
+				<ul class="dropdown-menu" aria-labelledby="dropdownstudents">
+				     <li><a class="dropdown-item" href="#"> New Students </a></li>
+				     <li><a class="dropdown-item" href="#"> Edit Students </a></li>
+				     <li><a class="dropdown-item" href="#"> Student Details </a></li>
+				     <li><a class="dropdown-item" href="#"> Remove Students </a></li>
+				</ul>
+			</li>
+			<li class="nav-item dropdown">
+			     <a class="nav-link dropdown-toggle" href="#" id="dropdowncourses" data-bs-toggle="dropdown"> Courses</a>
+				<ul class="dropdown-menu" aria-labelledby="dropdowncourses">
+				     <li><a class="dropdown-item" href="#"> DITHEC </a></li>
+				     <li><a class="dropdown-item" href="#"> Enghish </a></li>
+				     <li><a class="dropdown-item" href="#"> Higher Diploma </a></li>
+				     <li><a class="dropdown-item" href="#"> Graphic Design </a></li>
+				     <li><a class="dropdown-item" href="#"> Software Engineering </a></li>
+				</ul>
+			</li>
+   			<li class="nav-item">
+			     <a class="nav-link" href="#"> Payments</a>
+			</li>
+			<li class="nav-item">
+			     <a class="nav-link" href="#"> Ragistrations</a>
+			</li>
+		            </ul>
+			  <form class="d-flex">
+				<input class="form-control" type="search" placeholder="search">
+				<button class="btn btn-outline-success" type="submit"> Search </button>
+	    		 </form>
+		     </div>
+		</div>
+	       </nav>
+
+	<div  id="webBanner" class="carousel slide" data-bs-ride="carousel">
+	     <div class="carousel-inner">
+	          <div class="carousel-item active">
+		<img src="img/1.jpg">
+	          </div>
+	          <div class="carousel-item">
+		<img src="img/2.jpg">
+	          </div>
+	          <div class="carousel-item">
+		<img src="img/3.jpg">
+	          </div>
+	          <div class="carousel-item">
+		<img src="img/4.jpg">
+	         </div>
+	      </div>
+	    <button class="carousel-control-prev" type="button" data-bs-target="#webBanner" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+		<span class="visually hidden"> Previous </span>
+	    </button>
+  	    <button class="carousel-control-next" type="button" data-bs-target="#webBanner" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"> </span>
+		<span class="visually hidden"> Next </span>
+	    </button>
+	</div>
+
+	    
+
+	         <script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>
