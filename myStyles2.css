@@ -1,0 +1,65 @@
+.formPanel{
+	background-color:#FFFDD0;
+	border-radius:10px;
+	height:1500px;
+}
+
+.formTitle{
+	font-weight:bold;
+	text-align:center;
+	font-size:20px;
+}
+
+.formTopSpace{
+	height:5px;
+}
+
+.formBottomSpace{
+	height:5px;
+}
+
+.rowSpace{
+	padding-bottom:10px;
+}
+
+.personal{
+	width:315px;
+}
+
+.emailTB{
+ 	width:315px;
+}
+
+.textBox{
+	width:400px;
+}
+
+.employe{
+	width:350px;
+}
+
+.parent{
+	width:350px;
+}
+
+.address{
+	width:250px;
+}
+
+.btnSave{
+	width:125px;	
+}
+
+.btnClear{
+	width:125px;
+}
+
+.title{
+	width:100px;
+	height:30px;
+}
+
+.idType{
+	width:182px;
+	height:30px;
+}
